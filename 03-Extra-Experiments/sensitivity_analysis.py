@@ -6,6 +6,8 @@ import pandas as pd
 from scipy.spatial import cKDTree
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # ==================== Core Algorithmic Engine (PC-SDF) ====================
 
 def run_pcsdf_engine(img_path, depth_path, las_path, 
@@ -119,10 +121,11 @@ def run_pcsdf_engine(img_path, depth_path, las_path,
 def run_sensitivity_analysis():
     # File paths (Adjust to your actual paths)
     cfg = {
-        'img_path': '/home/hy/project/01/DSC04644.JPG',
-        'depth_path': '/home/hy/project/01/DSC04644_depth_anything_v2.png',
-        'las_path': '/home/hy/project/01/A/group1-gt/group1-gt-new.las'
+        'img_path': os.path.join(BASE_DIR, "Data", "DSC05911.jpg"),
+        'depth_path': os.path.join(BASE_DIR, "Data", "DSC05911_depth-anything-v2.png"),
+        'las_path': os.path.join(BASE_DIR, "Data", "group2-gt.las")
     }
+    
 
     print("🚀 Initiating Rigorous PC-SDF Parameter Sensitivity Analysis...")
     out_dir = "sensitivity_results"
