@@ -1,20 +1,20 @@
-# PC-SDF
-This repository is used for experimental replication and currently makes part of the code publicly available; additional code will be uploaded as required in the future.  
+# PC-SDF: Physics-Constrained Sparse Data Fusion
 
----  
+This repository contains the evaluation toolkit and sample datasets for the manuscript: 
+*"Large-scale Three-dimensional Wetland Reconstruction and Application Based on Physical Constraints Using Sparse Point Cloud and Image Data"*.
 
-This repository mainly presents the practical implementation of the PC-SDF wetland reconstruction method and its application in the Yancheng wetland in China.
-This repository serves as the official implementation for the paper *Large-scale Three-dimensional Wetland Reconstruction and Application Based on Physical Constraints Using Sparse Point Cloud and Image Data* and provides the complete code for the PC-SDF method described therein. Due to the large size of the original data, intermediate results generated during processing, and final output files, these data are not included in this repository.  
+## Code Availability Statement
+The PC-SDF framework implements the GSR and PDEC modules within a unified pipeline. For the DEM and point cloud registration process (PDEC), the complete and reproducible scripts are currently under code review and cleanup. **The full source code and extended datasets will be made publicly available upon the official acceptance or publication of the related manuscript.**
 
----
+## Current Repository Contents
+To facilitate the peer-review process and ensure metric transparency, we currently provide:
+1. **Sample Yancheng Dataset**: A representative sub-region including the highly sparse LiDAR input (<0.1%), the monocular depth prior (DA-V2), the 100% dense ground truth, and our final PC-SDF predicted DEM.
+2. **Evaluation Toolkit**: The rigorous metric calculation scripts used in our paper (RMSE, MAE, Pearson R, and Gradient Correlation).
+3. **Data Initialization Script**: The standard script for extracting initial relative topography from monocular depth maps.
 
-## **The complete process of PC-SDF:**
-<img width="729" height="816" alt="image" src="https://github.com/user-attachments/assets/3cfa122d-51cf-41d0-9c8e-a5b2b3cc9d62" />
+## Quick Start (Metric Validation)
+Reviewers and researchers can independently verify the quantitative performance reported in our manuscript using the provided sample data
 
-
----
-
-## Environment Requirements
 ***python version:***
 ```>=3.8```  
 
