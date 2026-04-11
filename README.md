@@ -12,7 +12,7 @@ To facilitate the peer-review process and ensure metric transparency, we current
 2. **Evaluation Toolkit**: The metric calculation scripts used in our paper (RMSE, MAE, Pearson R, and Gradient Correlation).
 3. **Data Initialization Script**: The standard script for extracting initial relative topography from monocular depth maps.
 
-## Quick Start (Metric Validation)
+## Environment
 Reviewers and researchers can independently verify the quantitative performance reported in our manuscript using the provided sample data
 
 ***python version:***
