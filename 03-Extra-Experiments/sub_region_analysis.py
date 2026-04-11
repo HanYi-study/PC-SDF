@@ -119,18 +119,18 @@ if __name__ == "__main__":
 
     # Evaluate Area 1
     res1 = evaluate_partitioned_area(
-        pred_path="data/sample_yancheng/outputs/PC_SDF_group1_elevation.txt",  
-        gt_path="data/sample_yancheng/inputs/group1_gt_dense.las",
-        mask_path="data/sample_yancheng/masks/DSC04644_mask.png",
+        pred_path=os.path.join(BASE_DIR, "Data", "PC_SDF_group1_elevation.txt"), 
+        gt_path=os.path.join(BASE_DIR, "Data", "group1-gt-new.las"),
+        mask_path=os.path.join(BASE_DIR, "Data", "DSC04644_mask.png"),
         area_name="Area 1"
     )
     if res1: results.append(res1)
 
     # Evaluate Area 2
     res2 = evaluate_partitioned_area(
-        pred_path="data/sample_yancheng/outputs/PC_SDF_group2_elevation.txt",
-        gt_path="data/sample_yancheng/inputs/group2_gt_dense.las",
-        mask_path="data/sample_yancheng/masks/DSC05911_mask.png",
+        pred_path=os.path.join(BASE_DIR, "Data", "PC_SDF_group2_elevation.txt"),
+        gt_path=os.path.join(BASE_DIR, "Data", "group2-gt.las"),
+        mask_path=os.path.join(BASE_DIR, "Data", "DSC04644_mask.png"),
         area_name="Area 2"
     )
     if res2: results.append(res2)
