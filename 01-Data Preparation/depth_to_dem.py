@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import median_filter, uniform_filter
 
 # =============== Configurable Parameters ===============
-depth_path = '...'   # Path to the input depth map
-output_dir = '...'                 # Output directory
+depth_path = os.path.join(BASE_DIR, 'Data', 'DSC05911_depth-anything-v2.png')  # Path to the input depth map
+output_dir = os.path.join(BASE_DIR, 'Data', 'outputs')              # Output directory
 
 # Virtual parameters for relative terrain construction 
 # (Strictly for initial topology modeling; lacks absolute physical scale)
