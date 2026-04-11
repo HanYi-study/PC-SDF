@@ -5,3 +5,6 @@ The monocular depth estimation models used in this work are listed below. We pro
 - Depth Anything V2:```https://github.com/DepthAnything/Depth-Anything-V2```  
 - ZoeDepth:```https://github.com/isl-org/ZoeDepth```
 
+---
+
+'depth_to_dem.py':This script is used to convert the depth maps predicted by deep learning into preliminary DEMs.
