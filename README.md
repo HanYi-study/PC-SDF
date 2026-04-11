@@ -31,5 +31,4 @@ cupy>=10
 scikit-learn>=0.24
 ```  
 
-***Clone repository:***  
-```git clone https://github.com/HanYi-study/CA-LIECC.git```
+
