@@ -141,8 +141,8 @@ if __name__ == "__main__":
     # 1. Configuration & File Paths
     # ==========================================
     # Replace with your actual relative or absolute paths inside the repository
-    xyz_baseline = "data/sample_yancheng/outputs/SFS_reconstruction_output.xyz" 
-    xyz_pcsdf = "data/sample_yancheng/outputs/PC_SDF_final_elevation.xyz"
+    xyz_baseline = os.path.join(BASE_DIR, "Data", "baseline_reconstruction_output.xyz")
+    xyz_pcsdf = os.path.join(BASE_DIR, "Data", "PC_SDF_final_elevation.xyz")
     
     # Crucial: Define the spatial resolution matching the actual survey scale (e.g., 0.5 meters)
     RESOLUTION = 0.5 
