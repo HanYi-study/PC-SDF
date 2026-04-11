@@ -9,11 +9,11 @@ The PC-SDF framework implements the GSR and PDEC modules within a unified pipeli
 ## Current Repository Contents
 To facilitate the peer-review process and ensure metric transparency, we currently provide:
 1. **Sample Yancheng Dataset**: A representative sub-region including the highly sparse LiDAR input (<0.1%), the monocular depth prior (DA-V2), the 100% dense ground truth, and our final PC-SDF predicted DEM.
-2. **Evaluation Toolkit**: The metric calculation scripts used in our paper (RMSE, MAE, Pearson R, and Gradient Correlation).
-3. **Data Initialization Script**: The standard script for extracting initial relative topography from monocular depth maps.
+2. **Data Initialization Script**: The standard script for extracting initial relative topography from monocular depth maps.
+3. **Additional Experiments**：Sub-regional Experiments, Parameter Sensitivity Analysis, and Ecological Experimentation
 
 ## Environment
-Reviewers and researchers can independently verify the quantitative performance reported in our manuscript using the provided sample data
+Reviewers and researchers can independently verify certain experiments reported in our manuscript using the provided sample data.
 
 ***python version:***
 ```>=3.8```  
