@@ -143,6 +143,10 @@ if __name__ == "__main__":
     # Replace with your actual relative or absolute paths inside the repository
     xyz_baseline = os.path.join(BASE_DIR, "Data", "baseline_reconstruction_output.xyz")
     xyz_pcsdf = os.path.join(BASE_DIR, "Data", "PC_SDF_final_elevation.xyz")
+
+    out_dir = os.path.join(BASE_DIR, "Data", "outputs")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
     
     # Crucial: Define the spatial resolution matching the actual survey scale (e.g., 0.5 meters)
     RESOLUTION = 0.5 
