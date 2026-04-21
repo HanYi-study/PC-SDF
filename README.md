@@ -1,4 +1,6 @@
-# PC-SDF: Physics-Constrained Sparse Data Fusion
+# PC-SDF: Physics-Constrained Sparse Data Fusion  
+[![Status](https://img.shields.io/badge/Status-Under_Review-orange.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the evaluation toolkit and sample datasets for the manuscript: 
 *"Large-scale Three-dimensional Wetland Reconstruction and Application Based on Physical Constraints Using Sparse Point Cloud and Image Data"*.
