@@ -14,6 +14,9 @@ To facilitate the peer-review process and ensure metric transparency, we current
 2. **Data Initialization Script**: The standard script for extracting initial relative topography from monocular depth maps.
 3. **Additional Experiments**：Sub-regional Experiments, Parameter Sensitivity Analysis, and Ecological Experimentation
 
+<img width="759" height="745" alt="image" src="https://github.com/user-attachments/assets/28e968c0-9de7-4519-97b0-e0a6aa43b5c1" />
+
+
 ## Environment
 Reviewers and researchers can independently verify certain experiments reported in our manuscript using the provided sample data.
 
